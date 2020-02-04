@@ -1,0 +1,116 @@
+/*BEGIN Formidable Forms*/
+.frm_forms {
+    width: 100%;
+    max-width: 40em;
+    margin: 10px 0;
+}
+
+.frm_forms form {
+    box-sizing: border-box;
+    margin-bottom: 1.5em;
+    max-width: 98%;
+}
+
+.frm_form_field {
+  margin: .375em 0 1em;
+}
+
+.frm_description {
+    font-weight: 200
+}
+
+.frm_forms input,
+.frm_forms textarea,
+.frm_forms select {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0px 0 9px;
+    font-size: 16px;
+}
+
+.frm_forms input[type="email"],
+.frm_forms input[type="number"],
+.frm_forms input[type="password"],
+.frm_forms input[type="tel"],
+.frm_forms input[type="text"],
+.frm_forms input[type="url"] {
+    height: auto;
+}
+
+.frm_forms textarea {
+    height: 150px;
+}
+
+.frm_forms input[type="checkbox"],
+.frm_forms input[type="radio"] {
+    height: auto;
+    width: auto;
+    vertical-align: top;
+    margin-top: 4px;
+    margin-left: 1px;
+    margin-right: 9px;
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+input[type="button"] {
+  width: auto;
+}
+
+input[type="file"] {
+    line-height: 1;
+}
+
+.frm_forms input[type="submit"],
+.frm_forms input[type="button"].frm_prev_page {
+    width: 100%;
+    margin: 5px 0;
+    max-width: 10em;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: normal;
+    background-color: #A51417;
+    color: #fff;
+    border: none;
+    height: 35px;
+}
+
+.frm_forms input[type="button"].frm_prev_page {
+  background-color: #555;
+  margin-right: 1em;
+}
+
+.frm_forms input[type="submit"]:hover,
+.frm_forms input[type="button"].frm_prev_page:hover,
+.frm_forms input[type="submit"]:focus,
+.frm_forms input[type="button"].frm_prev_page:focus {
+    background-color: #414141;
+}
+
+.frm_forms .frm_error {
+    font-weight: 700;
+    font-size: 16px;
+    padding: 10px;
+    color: #333333;
+    background: #FFEBE8;
+    border: 1px solid #CC0000;
+}
+
+.frm_forms label {
+    font-weight: 700;
+    display: inline-block;
+    margin: 10px 0 4px;
+}
+
+.frm_forms .frm_checkbox label,
+.frm_forms .frm_radio label {
+    font-weight: normal;
+    margin: 0 0 8px;
+}
+
+.frm_hidden,
+.with_frm_style .frm_button.frm_hidden{
+    display:none !important; /* overwriting the */
+}
+
+/*END Formidable Forms*/
