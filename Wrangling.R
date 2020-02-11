@@ -41,5 +41,3 @@ ggplot(aes(records, fill = breach, color = breach)) +
     title = "Breached records in dollar",
     subtitle = "for each breach types"
   )
-
-#Bayesian modeling
